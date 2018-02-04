@@ -15,7 +15,7 @@ High value of Kp tries to reduce the error faster. But too high value will make 
 ### I term
 Integral term is proportional to magnitude and duration of error. It is addition of instantaneous errors over time. 
 
-I term = Ki*integral(error*dt)
+I term = Ki * integral(error*dt)
 
 Integral term also makes movement towards setpoint faster and makes the steady state error zero. But too high value of integral makes the system to oscillate. Along with the P term, this also causes the system to overshoot. 
 
